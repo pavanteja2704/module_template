@@ -1,0 +1,383 @@
+Initializing document watcher...
+Document watcher initialized
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/apply.sh: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/apply.sh: {}
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+No more open editors.
+storage/lz-storage_bucket/apply.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/apply.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/destroy.sh: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/input-json-file/monitoring.tfvars: {}
+storage/monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/monitoring_alert_policy/template/monitoring.tf: {}
+storage/variable.tf: {}
+storage/output.tf: {}
+storage/monitoring_alert_policy/template/bucket.tf: {}
+storage/monitoring_alert_policy/template/bucket.tf: {}
+storage/monitoring_alert_policy/template/buckend.tf: {}
+storage/monitoring_alert_policy/template/backend.tf: {}
+storage/monitoring_alert_policy/template/backend.tf: {}
+storage/monitoring_alert_policy/template/provider.tf: {}
+storage/monitoring_alert_policy/template/backend.tf: {}
+storage/monitoring_alert_policy/template/backend.tf: {}
+storage/monitoring_alert_policy/template/backend.tf: Using EditorConfig core...
+storage/monitoring_alert_policy/template/monitoring.tf: {}
+storage/monitoring_alert_policy/template/monitoring.tf: {}
+storage/monitoring_alert_policy/template/output.tf: {}
+storage/monitoring_alert_policy/template/output.tf: {}
+storage/monitoring_alert_policy/template/provider.tf: {}
+storage/monitoring_alert_policy/template/provider.tf: {}
+storage/monitoring_alert_policy/template/provider.tf: Using EditorConfig core...
+storage/monitoring_alert_policy/template/variable.tf: {}
+storage/monitoring_alert_policy/template/variable.tf: {}
+storage/monitoring_alert_policy/template/variable.tf: {}
+storage/input-json-file/logging_project_sink.tfvars: {}
+storage/logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/logging_project_sink/template/logging_project_sink.tf: {}
+storage/logging_project_sink/template/output.tf: {}
+storage/logging_project_sink/template/provider.tf: {}
+storage/logging_project_sink/template/variable.tf: {}
+storage/logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: {}
+storage/lz-logging_project_sink/template/output.tf: {}
+storage/lz-logging_project_sink/template/provider.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/variable.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: {}
+storage/lz-logging_project_sink/template/output.tf: {}
+storage/lz-logging_project_sink/template/output.tf: {}
+storage/lz-logging_project_sink/template/output.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/output.tf: {}
+storage/lz-logging_project_sink/template/backend.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: {}
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/logging_project_sink.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/template/output.tf: {}
+storage/lz-logging_project_sink/template/provider.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-logging_project_sink/template/provider.tf: {}
+storage/lz-logging_project_sink/template/provider.tf: Using EditorConfig core...
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/output.tf: {}
+storage/lz-monitoring_alert_policy/template/output.tf: {}
+storage/lz-monitoring_alert_policy/template/output.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/output.tf: {}
+storage/lz-monitoring_alert_policy/template/provider.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: Using EditorConfig core...
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/variable.tf: {}
+storage/lz-monitoring_alert_policy/template/provider.tf: {}
+storage/lz-monitoring_alert_policy/template/output.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/template/backend.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/template/monitoring.tf: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-monitoring_alert_policy/input-json-file/monitoring.tfvars: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/storage_bucket.tf: Using EditorConfig core...
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: Using EditorConfig core...
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/variable.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/template/backend.tf: {}
+storage/lz-storage_bucket/template/output.tf: {}
+storage/lz-storage_bucket/template/provider.tf: {}
+storage/lz-storage_bucket/template/storage_bucket.tf: {}
+storage/lz-storage_bucket/input.-json-file/storage_bucket.tfvars: {}
