@@ -5,8 +5,8 @@ case $1 in
 
 #............................................................ lz-storage_bucket ...........................................................#
 
-    lz-storage_bucket)
-    cd lz-storage_bucket/template/
+    lz-sb)
+    cd template/
 
     #........................... Setting up the required project.......................#
     PROJECT_ID="my-project-amit1-415215"
@@ -30,21 +30,12 @@ case $1 in
     echo -e "Answer: $ans"
     if [ $ans == "y" ]
     then
-        JSON_FILE_1="../input-json-file/folders.tfvars"
-        JSON_FILE_2="../input-json-file/projects.tfvars"
-        JSON_FILE_3="../input-json-file/policy.tfvars"
-        JSON_FILE_4="../input-json-file/budget.tfvars"
-        JSON_FILE_5="../input-json-file/api.tfvars"
-        JSON_FILE_6="../input-json-file/host-svc.tfvars"
+        JSON_FILE_1="../input-json-file/storage_bucket.tfvars"
 
         terraform destroy \
         -var access_token=$MYTOKEN \
         -var-file=$JSON_FILE_1 \
-        -var-file=$JSON_FILE_2 \
-        -var-file=$JSON_FILE_3 \
-        -var-file=$JSON_FILE_4 \
-        -var-file=$JSON_FILE_5 \
-        -var-file=$JSON_FILE_6 
+        
 
         echo -e "----------------------------------------------------------------------------------------------------------"
         echo -e "----------------------------------------------------------------------------------------------------------"

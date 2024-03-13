@@ -3,14 +3,14 @@
 case $1 in
 #............................................................ lz-storage_bucket ...........................................................#
 
-    lz-storage_bucket)
-    cd lz-storage_bucket/template/
+    lz-sb)
+    cd template/
 
-    PROJECT_ID="hardy-binder-411706"
+    PROJECT_ID="my-project-amit1-415215"
     gcloud config set project $PROJECT_ID
 
-    export TF_LOG=INFO 
-    export TF_LOG_PATH="../log-file/lz-storage_bucket-$(date +"%d-%m-%Y_%H:%M").log"
+    # export TF_LOG=INFO 
+    # export TF_LOG_PATH="../log-file/lz-storage_bucket-$(date +"%d-%m-%Y_%H:%M").log"
    
     echo -e "----------------------------------------------------------------------------------------------------------"
     echo -e "----------------------------------------------------------------------------------------------------------"
@@ -33,7 +33,7 @@ case $1 in
     terraform plan \
     -var access_token=$MYTOKEN \
     -var-file=$JSON_FILE_1 \
-    -out=$PLAN_FILE
+    -out=$PLAN_FILE \
 
     echo -e "\n"
     echo -e "----------------------------------------------------------------------------------------------------------"
