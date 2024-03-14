@@ -1,6 +1,6 @@
 terraform {
     backend "gcs" {
     bucket  = "igenie-test-terraform"
-    prefix  = "lz-log-sink"
+    prefix  = "lz-net-hub"
   }
 }

@@ -13,8 +13,8 @@ variable "description" {
   default = "1st-hub"
 }
 
-# variable "labels" {
-#   description = "Labels to be attached to the network_connectivity_hub"
-#   type = list(string)
-#   default = "pavan"
-# }
+variable "label-one" {
+  description = "Labels to be attached to the network_connectivity_hub"
+  type = list(string)
+  default = "pavan"
+}

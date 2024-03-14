@@ -2,10 +2,8 @@
   name        = var.hub_name
   description = var.description
   project     = var.project_id
-  # lable     = var.labels
-
   labels      = {
-   label-one = "value-one"
+   label = var.label-one
   }
   
 }
