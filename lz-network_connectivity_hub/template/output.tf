@@ -1,7 +1,7 @@
 output "hub_name" {
-value = module.network-connectivity-hub  
+value = module.network-hub  
 }
  
 output "hub_id" {
-value = module.network-connectivity-hub
+value = module.network-hub
 }

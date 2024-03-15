@@ -4,6 +4,6 @@ variable "project_id" {
 variable "access_token" {
     sensitive   = true
 }
-variable "network-connectivity-hub" {
+variable "network-hub" {
     sensitive   = false
 }
