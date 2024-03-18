@@ -3,29 +3,26 @@ resource "google_logging_project_sink" "sink" {
   destination                   = var.destination
   filter                        = var.filter
   description                   = var.description
-  disabled                      = var.disabled
-  project                       = var.project_id
-  unique_writer_identity        = var.unique_writer_identity
-  custom_writer_identity        = var.custom_writer_identity
-  include_children              = var.include_children
+  # disabled                    = var.disabled
+  # unique_writer_identity      = var.unique_writer_identity
+  # custom_writer_identity      = var.custom_writer_identity
+  # include_children              = var.include_children
+  # project_id                    = var.project
 
-  dynamic "bigquery_options" {
-    # for_each                    = var.bigquery_options[*]
-    # content {
-    #   use_partitioned_tables    = lookup(bigquery_options.value, "use_partitioned_tables", 100)
-    # }
-    destination = var.destination
-  }
+  # dynamic "bigquery_options" {
+  #   # for_each                    = var.bigquery_options[*]
+  #   # content {
+  #   #   use_partitioned_tables    = lookup(bigquery_options.value, "use_partitioned_tables", 100)
+  #   # }
+  # }
 
-  dynamic "exclusions" {
-    # for_each                    = var.exclusions[*]
-    # content {
-    #   name                      = lookup(exclusions.value, "name", "")
-    #   description               = lookup(exclusions.value, "description", "")
-    #   filter                    = lookup(exclusions.value, "filter", "")
-    #   disabled                  = lookup(exclusions.value, "disabled", "")
-    # }
-  }
+  # dynamic "exclusions" {
+  #   # for_each                    = var.exclusions[*]
+  #   # content {
+  #   #   name                      = lookup(exclusions.value, "name", "")
+  #   #   description               = lookup(exclusions.value, "description", "")
+  #   #   filter                    = lookup(exclusions.value, "filter", "")
+  #   #   disabled                  = lookup(exclusions.value, "disabled", "")
+  #   # }
+  # }
 }
-  
-#   "pubsub.googleapis.com/projects/my-project/topics/instance-activity"
