@@ -1,14 +1,8 @@
-monitoring_alert_policy = [
+monitoring-project = [
  {
-   monitoring_project_id     =    "project_id"
-   policies                  =
-   user_labels               =
-   notification_channels     =
-}
+  project               = ""
+  user_labels           = "user_labels"
+  notification_channels = "xyz@gmail.com"
+  enabled               = "true"
+ }
 ]
-
-# monitoring_alert_policy = [
-#  {
-#   display_name                       = "display_name"
-#   combiner                           = "combiner"
-#  }
