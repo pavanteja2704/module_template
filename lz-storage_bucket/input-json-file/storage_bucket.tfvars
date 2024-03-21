@@ -1,7 +1,6 @@
-bucket = [
- {
+bucket = {
+ "bucket-rogers" = {
      project_id    = "my-project-amit1-415215"
-     bucket_name   = "tej-pt015"
      gcs_location  = "US"
      storage_class = "STANDARD"
      force_destroy = "true"
@@ -17,4 +16,4 @@ bucket = [
      }
     
  }
-]
+}

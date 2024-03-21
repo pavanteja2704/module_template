@@ -1,22 +1,22 @@
 variable "name" {
   description                 = "(Required) The name of the logging sink."
   type                        = string
-  default = "sink-p"
+  # default = "sink-p"
 }
 variable "destination" {
   description = "(Required) The destination of the sink (or, in other words, where logs are written to). Can be a Cloud Storage bucket, a PubSub topic, a BigQuery dataset, a Cloud Logging bucket, or a Google Cloud project"
   type                        = string
-  default = "pubsub.googleapis.com/projects/hardy-binder-411706/topics/topic1"
+  # default = "pubsub.googleapis.com/projects/hardy-binder-411706/topics/topic1"
 }
 variable "filter" {
   description                 = "(Optional) The filter to apply when exporting logs. Only log entries that match the filter are exported."
   type                        = string
-  default = "resource.type = gce_instance AND severity >= WARNING"
+  # default = "resource.type = gce_instance AND severity >= WARNING"
 }
 variable "description" {
   description                 = "(Optional) A description of this sink. The maximum length of the description is 8000 characters."
   type                        = string
-  default = "sink-log"
+  # default = "sink-log"
 }
 # variable "disabled" {
 #   description                 = "(Optional) If set to True, then this sink is disabled and it does not export any log entries."

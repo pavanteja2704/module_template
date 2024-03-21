@@ -1,6 +1,6 @@
 module "network-hub" {
   for_each = {
-      for k, v in var.network-hub : k => v
+      for k, v in try(var.nat,{}): k => v if v.delete != true
       }
      source      = "/home/yellaboyina_pavan/rogers/google-network-connectivity-hub" 
      hub_name    = each.value.hub_name

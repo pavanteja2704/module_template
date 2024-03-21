@@ -1,6 +1,6 @@
 module "logging_project_sink" {
   for_each = {
-      for k, v in var.logging_project_sink: k => v
+      for k, v in try(var.nat,{}): k => v if v.delete != true
       }
     source                        = "/home/yellaboyina_pavan/Rogers-LZ-Modules/terraform-google-logging-project-sink"  
     name                          = each.value.name

@@ -1,6 +1,5 @@
-network-hub = [
- {
-  hub_name       = "pavan-hub"
+network-hub = {
+ "pavan-hub"= {
   description    =  "1st-hub"
   project_id     = "my-project-amit1-415215"
   labels         = {
@@ -8,5 +7,5 @@ network-hub = [
         tf = "true"
      }
  }
-]
+}
 

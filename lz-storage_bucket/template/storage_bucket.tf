@@ -1,6 +1,6 @@
 module "bucket" {
   for_each = {
-      for k, v in var.bucket: k => v
+      for k, v in try(var.nat,{}): k => v if v.delete != true
       }
     source                        = "git::https://source.developers.google.com/p/my-project-amit1-415215/r/Rogers-LZ-Modules//terraform-google-cloud-bucket"  
     project_id                    = each.value.project_id
