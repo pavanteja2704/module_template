@@ -31,8 +31,6 @@ variable "user_labels" {
     "env" = "prod"
   }
 }
-
-
 variable "combiner" {
   type        = string
   description = "(Required) How to combine the results of multiple conditions to determine if an incident should be opened. "
@@ -91,22 +89,22 @@ variable "condition_monitoring_query_language" {
 
     trigger =  list(object(
       {
-      #percent       = number
+      percent       = number
       count          = number
      }
     ))
   }))
   description = "(Optional) A Monitoring Query Language query that outputs a boolean stream Structure "
-  default = [{
+  default = [/* {
     duration = "60s"
     evaluation_missing_data = "EVALUATION_MISSING_DATA_INACTIVE"
     query = "compute_googleapis_com:instance_cpu_usage_time > 0"
     
     trigger = [ {
       count = 1
-     # percent = ""
+      percent = ""
     } ]
-    }]
+    } */]
 }
 variable "condition_threshold" {
   type                      = list(object(
@@ -133,7 +131,7 @@ variable "condition_threshold" {
       ))
       trigger =  list(object(
       {
-     # percent       = number
+      percent       = number
       count          = number
      }
     ))
@@ -168,7 +166,7 @@ variable "condition_threshold" {
 
     trigger = [ {
       count = 1
-     # percent = ""
+      percent = 70
     } ]
 
     aggregations = [ {
@@ -202,16 +200,16 @@ variable "condition_prometheus_query_language" {
       alert_rule            = string
           }))
   description = "(Optional) A condition type that allows alert policies to be defined using Prometheus Query Language (PromQL) "
-  default = [{
+  default = [/* {
     alert_rule     = "AlwaysOn"
     duration       = "60s"
     evaluation_interval = "60s"
     labels         = {
       "env"   = "non-prod"
     }
-    query          = "compute_googleapis_com:instance_cpu_usage_time > 0"
+    query          = ""
     rule_group     = "a test"
-  }]
+  } */]
 }
 
 variable "alert_strategy" {
