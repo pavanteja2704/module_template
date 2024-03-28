@@ -32,7 +32,6 @@ variable "user_labels" {
   }
 }
 
-
 variable "combiner" {
   type        = string
   description = "(Required) How to combine the results of multiple conditions to determine if an incident should be opened. "
@@ -46,26 +45,26 @@ variable "conditions" {
       display_name    = string
       condition_absent = list(object(
         {
-          duration    = string
-          filter      = string
-          aggregations =  list(object({
-            per_series_aligner       = string
-            group_by_fields          = list(string)
-            alignment_period         = string
-            cross_series_reducer     = string
+          #  duration    = string
+          #  filter      = string
+           aggregations =  list(object({
+          #   per_series_aligner       = string
+          #   group_by_fields          = list(string)
+          #   alignment_period         = string
+          #   cross_series_reducer     = string
             }))
           trigger   = list(object(
             {
-              percent  = number
-              count  = number
+              # percent  = number
+              # count  = number
               }))
               }))
           }))
    default = [
     {
-      display_name = "rohit"
+      display_name = "pavan"
        condition_absent = [{
-        duration = "60s"
+        duration = "120s"
         filter   =  "metric.type=\"compute.googleapis.com/instance/disk/write_bytes_count\" AND resource.type=\"gce_instance\""
         aggregations = [ {
           alignment_period = "60s"
@@ -75,7 +74,7 @@ variable "conditions" {
          }]
          trigger = [ {
            count = 1
-           percent = 70
+          #  percent = 70
          } ]
        }]
       
@@ -85,14 +84,14 @@ variable "conditions" {
 variable "condition_monitoring_query_language" {
   type                      = list(object(
     {
-      query      =  string
-      duration   =  string
-      evaluation_missing_data = string
+       query      =  string
+       duration   =  string
+       evaluation_missing_data = string
 
     trigger =  list(object(
       {
       #percent       = number
-      count          = number
+       count          = number
      }
     ))
   }))
@@ -111,38 +110,38 @@ variable "condition_monitoring_query_language" {
 variable "condition_threshold" {
   type                      = list(object(
     {
-      threshold_value    =  number
-      denominator_filter  =  string
-      duration            =string
-      comparison         = string
-      filter            = string
-      evaluation_missing_data = string
+      # threshold_value    =  number
+      # denominator_filter  =  string
+      # duration            =string
+      # comparison         = string
+      # filter            = string
+      # evaluation_missing_data = string
 
     denominator_aggregations =  list(object(
       {
-      per_series_aligner        = string
-      group_by_fields           = list(string)
-      alignment_period          = string
-      cross_series_reducer      = string
+      # per_series_aligner        = string
+      # group_by_fields           = list(string)
+      # alignment_period          = string
+      # cross_series_reducer      = string
      }
     ))
     forecast_options =list(object(
       {
-        forecast_horizon = string
+        # forecast_horizon = string
       }
       ))
       trigger =  list(object(
       {
      # percent       = number
-      count          = number
+      # count          = number
      }
     ))
       aggregations =  list(object(
       {
-      per_series_aligner       = string
-      group_by_fields          = list(string)
-      alignment_period         = string
-      cross_series_reducer     = string 
+      # per_series_aligner       = string
+      # group_by_fields          = list(string)
+      # alignment_period         = string
+      # cross_series_reducer     = string 
   }))
   }))
 
@@ -182,8 +181,8 @@ variable "condition_threshold" {
 variable "condition_matched_log" {
   type                      = list(object(
     {
-      filter            =  string
-      label_extractors   =  string
+      # filter            =  string
+      # label_extractors   =  string
   }))
   description = "(Optional) A condition that checks for log messages matching given constraints. If set, no other conditions can be present."
   default = [{
@@ -194,12 +193,12 @@ variable "condition_matched_log" {
 variable "condition_prometheus_query_language" {
   type                      = list(object(
     {
-      query                 =  string
-      duration              =  string
-      evaluation_interval   = string
-      labels                = map(string)
-      rule_group            = string
-      alert_rule            = string
+      # query                 =  string
+      # duration              =  string
+      # evaluation_interval   = string
+      # labels                = map(string)
+      # rule_group            = string
+      # alert_rule            = string
           }))
   description = "(Optional) A condition type that allows alert policies to be defined using Prometheus Query Language (PromQL) "
   default = [{
@@ -217,15 +216,15 @@ variable "condition_prometheus_query_language" {
 variable "alert_strategy" {
   
   type = list(object({
-    auto_close = string
+    # auto_close = string
     notification_rate_limit = list(object(
       {
-        period = string
+        # period = string
         }))
     notification_channel_strategy = list(object(
       {
-        notification_channel_names = list(string)
-        renotify_interval =string 
+        # notification_channel_names = list(string)
+        # renotify_interval =string 
         })) 
   }))
   description = "hello"
@@ -243,9 +242,9 @@ variable "alert_strategy" {
 
 variable "documentation" {
   type = list(object({
-    mime_type = string
-    content   = string
-    subject   = string
+    # mime_type = string
+    # content   = string
+    # subject   = string
   }))
   description = ""
   default = [ {

@@ -8,8 +8,8 @@ resource "google_monitoring_alert_policy" "policy" {
   user_labels = var.user_labels
   dynamic "conditions" {  
     for_each                       = var.conditions[*]
-    content {
-      display_name                     = lookup(conditions.value, "display_name", "")      
+     content {
+       display_name                     = lookup(conditions.value, "display_name", "")      
     dynamic "condition_absent" {
       for_each                       =  lookup(conditions.value,"condition_absent", [])
       content {
@@ -25,34 +25,35 @@ resource "google_monitoring_alert_policy" "policy" {
         dynamic "trigger" {
           for_each                   = lookup(condition_absent.value, "trigger", [])
           content {
-            percent                  = lookup(trigger.value, "percent","")
+            # percent                  = lookup(trigger.value, "percent","")
             count                    = lookup(trigger.value, "count", null)
           }
         }
 
-        duration                     = lookup(condition_absent.value, "duration", null)
-        filter                       = lookup(condition_absent.value, "filter", null)
-      }
-    }
+         duration                     = lookup(condition_absent.value, "duration", null)
+         filter                       = lookup(condition_absent.value, "filter", null)
+       }
+     }
     dynamic "condition_monitoring_query_language" {
-      for_each                       = var.condition_monitoring_query_language[*]
+      for_each                        = conditions.value.condition_absent == null ? conditions.value.condition_monitoring_query_language[*] : []
       content {
         query                        = lookup(condition_monitoring_query_language.value, "query", "")
-        duration                     = lookup(condition_monitoring_query_language.value, "duration", "")
+        duration                     = lookup(condition_monitoring_query_language.value, "duration",null)
+        evaluation_missing_data      = lookup(condition_monitoring_query_language.value, "evaluation_missing_data", null)
         dynamic "trigger" {
-          for_each                   = lookup(condition_monitoring_query_language.value, "trigger", [])
+          for_each                   =  condition_monitoring_query_language.value.trigger == null ? [] : condition_monitoring_query_language.value.trigger[*]
           content {
            # percent                  = lookup(trigger.value, "percent", "")
             count                    = lookup(trigger.value, "count", null)
           }
         }
-        evaluation_missing_data      = lookup(condition_monitoring_query_language.value, "evaluation_missing_data", null)
+        
       }
     }
      dynamic "condition_threshold" {
       for_each                       = var.condition_threshold[*]
       content {
-        threshold_value              = lookup(condition_threshold.value, "threshold_value", "")
+        threshold_value              = lookup(condition_threshold.value, "threshold_value", null)
         denominator_filter           = lookup(condition_threshold.value, "denominator_filter", "")
         dynamic "denominator_aggregations" {
           for_each                   = lookup(condition_threshold.value, "denominator_aggregations", [])
@@ -104,7 +105,7 @@ resource "google_monitoring_alert_policy" "policy" {
          query                      = lookup(condition_prometheus_query_language.value, "query", "")
          duration                   = lookup(condition_prometheus_query_language.value, "duration", "" )
          evaluation_interval        = lookup(condition_prometheus_query_language.value, "evaluation_interval", "")
-         labels                     = lookup(condition_prometheus_query_language.value, "labels", [])
+         labels                     = lookup(condition_prometheus_query_language.value, "labels", {})
          rule_group                 = lookup(condition_prometheus_query_language.value, "rule_group", "")
          alert_rule                 = lookup(condition_prometheus_query_language.value, "alert_rule ", "")
                 }
@@ -112,25 +113,25 @@ resource "google_monitoring_alert_policy" "policy" {
 
     }     
   }
-  dynamic "alert_strategy" {
+ dynamic "alert_strategy" {
           for_each                      = var.alert_strategy[*]
           content {
-            auto_close                   = lookup(alert_strategy.value,"auto_close", {})
+            auto_close                   = lookup(alert_strategy.value,"auto_close", "")
             dynamic "notification_rate_limit" {
             for_each                    = lookup(alert_strategy.value, "notification_rate_limit", [])
             content {
-              period                   =    lookup(notification_rate_limit.value, "period", [])
+              period                   =    lookup(notification_rate_limit.value, "period", "")
               }
               }
             dynamic "notification_channel_strategy" {
               for_each                      = lookup(alert_strategy.value, "notification_channel_strategy", [])
               content {
-              notification_channel_names   =   lookup(notification_channel_strategy.value, "notification_channel_names", "")
+              notification_channel_names   =   lookup(notification_channel_strategy.value, "notification_channel_names", [])
               renotify_interval            =  lookup(notification_channel_strategy.value, "renotify_interval", "")
                 }
          }
       }
-  } 
+  }  
     dynamic "documentation" {
               for_each                        = var.documentation[*]
               content {
@@ -139,4 +140,8 @@ resource "google_monitoring_alert_policy" "policy" {
                 subject                      = lookup(documentation.value, "subject", "")
                 }
                 }
-}
+ 
+     }
+  
+
+
