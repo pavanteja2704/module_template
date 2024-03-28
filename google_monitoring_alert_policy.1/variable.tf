@@ -16,7 +16,7 @@ variable "display_name" {
 variable "notification_channels" {
   type = list(string)
   description = ""
-  default = []
+  default = ["projects/hardy-binder-411706/notificationChannels/9156200506378571660"]
 }
 variable "severity" {
   type = string
@@ -31,7 +31,10 @@ variable "user_labels" {
     "env" = "prod"
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a4db2d2612cd8a1a93f519a99fae374a1caa399b
 variable "combiner" {
   type        = string
   description = "(Required) How to combine the results of multiple conditions to determine if an incident should be opened. "
@@ -63,7 +66,11 @@ variable "conditions" {
    default = [
     {
       display_name = "pavan"
+<<<<<<< HEAD
        condition_absent = [{
+=======
+       condition_absent = [/* {
+>>>>>>> a4db2d2612cd8a1a93f519a99fae374a1caa399b
         duration = "120s"
         filter   =  "metric.type=\"compute.googleapis.com/instance/disk/write_bytes_count\" AND resource.type=\"gce_instance\""
         aggregations = [ {
@@ -76,7 +83,7 @@ variable "conditions" {
            count = 1
           #  percent = 70
          } ]
-       }]
+       } */]
       
     }
   ]
@@ -90,22 +97,27 @@ variable "condition_monitoring_query_language" {
 
     trigger =  list(object(
       {
+<<<<<<< HEAD
       #percent       = number
        count          = number
+=======
+      percent       = number
+      count          = number
+>>>>>>> a4db2d2612cd8a1a93f519a99fae374a1caa399b
      }
     ))
   }))
   description = "(Optional) A Monitoring Query Language query that outputs a boolean stream Structure "
-  default = [{
-    duration = "60s"
+  default = [ {
+    duration = "120s"
     evaluation_missing_data = "EVALUATION_MISSING_DATA_INACTIVE"
     query = "compute_googleapis_com:instance_cpu_usage_time > 0"
     
     trigger = [ {
       count = 1
-     # percent = ""
+      percent = 70
     } ]
-    }]
+  } ]
 }
 variable "condition_threshold" {
   type                      = list(object(
@@ -132,8 +144,13 @@ variable "condition_threshold" {
       ))
       trigger =  list(object(
       {
+<<<<<<< HEAD
      # percent       = number
       # count          = number
+=======
+      percent       = number
+      count          = number
+>>>>>>> a4db2d2612cd8a1a93f519a99fae374a1caa399b
      }
     ))
       aggregations =  list(object(
@@ -146,7 +163,7 @@ variable "condition_threshold" {
   }))
 
   description = "(Optional) A condition that compares a time series against a threshold "
-  default = [{
+  default = [ {
     threshold_value = 0.5
     denominator_filter = null
     comparison =  "COMPARISON_GT"
@@ -167,7 +184,7 @@ variable "condition_threshold" {
 
     trigger = [ {
       count = 1
-     # percent = ""
+      percent = 70
     } ]
 
     aggregations = [ {
@@ -176,7 +193,7 @@ variable "condition_threshold" {
       group_by_fields = []
       per_series_aligner = "ALIGN_RATE"
     } ] 
-  }]
+  } ]
 }
 variable "condition_matched_log" {
   type                      = list(object(
@@ -185,10 +202,10 @@ variable "condition_matched_log" {
       # label_extractors   =  string
   }))
   description = "(Optional) A condition that checks for log messages matching given constraints. If set, no other conditions can be present."
-  default = [{
+  default = [/* {
     filter = "metric.type=\"compute.googleapis.com/instance/disk/write_bytes_count\" AND resource.type=\"gce_instance\""
     label_extractors = null
-  }]
+  } */]
 }   
 variable "condition_prometheus_query_language" {
   type                      = list(object(
@@ -201,16 +218,16 @@ variable "condition_prometheus_query_language" {
       # alert_rule            = string
           }))
   description = "(Optional) A condition type that allows alert policies to be defined using Prometheus Query Language (PromQL) "
-  default = [{
+  default = [/* {
     alert_rule     = "AlwaysOn"
     duration       = "60s"
     evaluation_interval = "60s"
     labels         = {
       "env"   = "non-prod"
     }
-    query          = "compute_googleapis_com:instance_cpu_usage_time > 0"
+    query          = ""
     rule_group     = "a test"
-  }]
+  } */]
 }
 
 variable "alert_strategy" {
@@ -229,15 +246,15 @@ variable "alert_strategy" {
   }))
   description = "hello"
   default = [ {
-    auto_close = ""
+    auto_close = "1800s"
     notification_rate_limit = [ {
       period    = ""
     } ]
     notification_channel_strategy = [ {
-      notification_channel_names  = ["grtclick@gmail.com"]
-      renotify_interval           = ""
+      notification_channel_names  = ["projects/hardy-binder-411706/notificationChannels/9156200506378571660"]
+      renotify_interval           = "1800s"
     } ]
-  } ]
+  }  ]
 }
 
 variable "documentation" {
@@ -249,9 +266,7 @@ variable "documentation" {
   description = ""
   default = [ {
     mime_type = "text/markdown"
-    content = ""
-    subject = ""
+    content = "hai please add some data"
+    subject = "best"
   } ]
 }
-
-
