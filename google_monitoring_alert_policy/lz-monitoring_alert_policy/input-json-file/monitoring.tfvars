@@ -22,7 +22,7 @@ monitoring_alert_policy = [
         cross_series_reducer   = "REDUCE_MEAN"
       }
     }
-    
+  ]
 ]
 
 
