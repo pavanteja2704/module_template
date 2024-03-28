@@ -40,7 +40,7 @@ variable "combiner" {
 variable "conditions" {
   description = " (Optional) A condition that checks that a time series continues to receive new data points"
   type                      = list(object({
-      display_name    = string
+      name_display    = string
       condition_absent = list(object({
           duration    = string
           filter      = string
@@ -94,7 +94,7 @@ variable "conditions" {
       }))
       condition_matched_log = list(object({
         filter            =  string
-        label_extractors   =  string
+        # label_extractors   =  string
       }))
       condition_prometheus_query_language = list(object({
         query                 =  string
@@ -105,8 +105,8 @@ variable "conditions" {
         alert_rule            = string
       }))
   }))
-  default =[{
-    condition_absent = [ {
+  default =[ {
+    condition_absent = [  {
       aggregations = [ {
         alignment_period = "60s"
         cross_series_reducer = null
@@ -118,13 +118,13 @@ variable "conditions" {
       trigger = [ {
         count = 1
         percent = 70
-      } ]
-    } ]
-    condition_matched_log = [ {
-      filter = "metric.type=\"compute.googleapis.com/instance/disk/write_bytes_count\" AND resource.type=\"gce_instance\""
-      label_extractors = null
-    } ]
-    condition_monitoring_query_languag = [ {
+      }  ]
+    }  ]
+    condition_matched_log = [ /*  {
+      filter = ""
+      # label_extractors = ""
+    }  */]
+    condition_monitoring_query_languag = [ /*  {
       duration = "120s"
       evaluation_missing_data = "EVALUATION_MISSING_DATA_INACTIVE"
       query = "compute_googleapis_com:instance_cpu_usage_time > 0"
@@ -132,18 +132,18 @@ variable "conditions" {
         count = 1
         percent = 70
       } ]
-    } ]
-    condition_prometheus_query_language = [ {
+    }   */]
+    condition_prometheus_query_language = [ /*  {
       alert_rule = "AlwaysOn"
       duration = "60s"
       evaluation_interval = "60s"
       labels = {
         "env"   = "non-prod"
       }
-      query = ""
+      query = "compute_googleapis_com:instance_cpu_usage_time > 0"
       rule_group = "a test"
-    } ]
-    condition_threshold = [ {
+    }  */ ]
+    condition_threshold = [/*  {
       aggregations = [ {
         alignment_period = "60s"
         cross_series_reducer = null
@@ -169,9 +169,9 @@ variable "conditions" {
         count = 1
         percent = 70
       } ]
-    } ]
-    display_name = "pavan"
-  }]
+    }   */ ]
+    name_display = "pavan"
+  } ]
 }  
 variable "alert_strategy" {
   type = list(object({
