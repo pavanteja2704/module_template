@@ -40,7 +40,7 @@ variable "combiner" {
 variable "conditions" {
   description = " (Optional) A condition that checks that a time series continues to receive new data points"
   type                      = list(object({
-      name_display    = string
+      display_name    = string
       condition_absent = list(object({
           duration    = string
           filter      = string
@@ -170,7 +170,7 @@ variable "conditions" {
         percent = 70
       } ]
     }   */ ]
-    name_display = "pavan"
+    display_name = "pavan"
   } ]
 }  
 variable "alert_strategy" {

@@ -3,10 +3,10 @@
 case $1 in
 #............................................................ lz-storage_bucket ...........................................................#
 
-    lz-mon)
+    lz-monitoring_alert_policy)
     cd template/
 
-    PROJECT_ID="lz-testing-417613"
+    PROJECT_ID="hardy-binder-411706"
     gcloud config set project $PROJECT_ID
 
     # export TF_LOG=INFO 

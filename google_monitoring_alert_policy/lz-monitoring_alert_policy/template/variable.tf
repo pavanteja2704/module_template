@@ -1,5 +1,5 @@
 variable "project_id" {
-    default     = "lz-testing-417613"
+    default     = "hardy-binder-411706"
 }
 variable "access_token" {
     sensitive   = true

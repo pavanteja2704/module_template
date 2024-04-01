@@ -5,11 +5,11 @@ case $1 in
 
 #............................................................ lz-storage_bucket ...........................................................#
 
-    lz-mon)
+    lz-monitoring_alert_policy)
     cd template/
 
     #........................... Setting up the required project.......................#
-    PROJECT_ID="my-project-amit1-415215"
+    PROJECT_ID="hardy-binder-411706"
     gcloud config set project $PROJECT_ID
    
     export TF_LOG=INFO 

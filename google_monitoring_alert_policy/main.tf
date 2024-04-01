@@ -9,7 +9,7 @@ resource "google_monitoring_alert_policy" "policy" {
   dynamic "conditions" {  
     for_each                       = var.conditions[*]
     content {
-      name_display                    = lookup(conditions.value, "name_display", "")      
+      display_name                    = lookup(conditions.value, "display_name", "")      
       dynamic "condition_absent" {
          for_each                       =  lookup(conditions.value,"condition_absent", [])
          content {

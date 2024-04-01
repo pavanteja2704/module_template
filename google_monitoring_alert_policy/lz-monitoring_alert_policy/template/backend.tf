@@ -2,7 +2,7 @@
 
 terraform {
     backend "gcs" {
-    bucket  = "test-2bucket"
+    bucket  = "pavan-test-terraform"
     prefix  = "lz-mon"
   }
 }
