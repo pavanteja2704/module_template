@@ -364,3 +364,7 @@ cd google_data_loss_prevention_job_trigger/
 ls
 cd
 ls
+git add .
+git commit -m "matbe"
+git push
+git exit
