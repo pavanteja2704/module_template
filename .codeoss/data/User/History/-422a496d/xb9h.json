@@ -1,0 +1,9 @@
+{
+    "http.proxySupport": "off",
+    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+    "redhat.telemetry.enabled": false,
+    "window.commandCenter": false,
+    "terminal.integrated.defaultProfile.linux": "Google Cloud Shell",
+    "cloudcode.project": "hardy-binder-411706",
+    "cloudcode.duetAI.project": "hardy-binder-411706"
+}

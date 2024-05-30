@@ -1,0 +1,18 @@
+2024-05-29 04:11:37.260 [info] Extension host with pid 779 started
+2024-05-29 04:11:37.306 [info] Lock '/home/yellaboyinapavanteja/.codeoss/data/User/workspaceStorage/481a26cd/vscode.lock': Lock acquired.
+2024-05-29 04:11:37.464 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-29 04:11:37.603 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-29 04:11:37.603 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-29 04:11:38.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-05-29 04:11:38.551 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-05-29 04:11:38.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-05-29 04:11:39.794 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2024-05-29 04:11:40.347 [info] Eager extensions activated
+2024-05-29 04:11:40.348 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-05-29 04:11:40.348 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-05-29 04:11:40.349 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-05-29 04:11:40.349 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-29 04:11:40.350 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-29 04:11:42.956 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-29 04:11:42.958 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-29 04:11:42.961 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'

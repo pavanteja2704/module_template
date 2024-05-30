@@ -1,0 +1,359 @@
+2024-04-17 04:29:53.810 [info] Extension host with pid 2360 started
+2024-04-17 04:29:53.856 [info] Lock '/home/yellaboyinapavanteja/.codeoss/data/User/workspaceStorage/14d01d6d/vscode.lock': Lock acquired.
+2024-04-17 04:29:53.987 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-17 04:29:54.304 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-17 04:29:54.305 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-17 04:29:54.720 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2024-04-17 04:29:54.981 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-17 04:29:55.184 [info] Eager extensions activated
+2024-04-17 04:29:55.184 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 04:29:55.185 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 04:29:55.185 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 04:29:55.186 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 04:29:55.186 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-17 04:29:57.409 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-17 04:29:57.409 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-17 04:29:57.410 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-17 04:31:24.169 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:24.174 [error] Error: main.tf (10,15): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:36.575 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:36.577 [error] Error: monitoring.tfvars (30,24): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:38.154 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:38.155 [error] Error: monitoring.tfvars (50,24): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:38.826 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:38.827 [error] Error: monitoring.tfvars (66,24): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:40.857 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:40.858 [error] Error: monitoring.tfvars (85,24): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:44.109 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:44.110 [error] Error: monitoring.tfvars (71,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:45.021 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:45.022 [error] Error: monitoring.tfvars (59,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:46.442 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:46.442 [error] Error: monitoring.tfvars (51,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:48.866 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:48.866 [error] Error: monitoring.tfvars (35,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:31:50.556 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:31:50.556 [error] Error: monitoring.tfvars (31,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:32:06.798 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:32:06.799 [error] Error: monitoring.tfvars (20,4): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:32:07.025 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:32:07.025 [error] Error: monitoring.tfvars (20,5): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:32:07.767 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:32:07.768 [error] Error: monitoring.tfvars (20,30): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:32:08.179 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:32:08.179 [error] Error: monitoring.tfvars (20,29): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:32:49.489 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:32:49.489 [error] Error: monitoring.tfvars (8,10): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:17.452 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:17.453 [error] Error: logging_project_sink.tfvars (9,24): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:17.745 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:17.746 [error] Error: logging_project_sink.tfvars (9,23): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:27.682 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:27.682 [error] Error: logging_project_sink.tf (12,21): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:28.086 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:28.087 [error] Error: logging_project_sink.tf (12,20): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:39.198 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:39.198 [error] Error: monitoring.tfvars (40,17): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:34:39.883 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:34:39.883 [error] Error: monitoring.tfvars (60,16): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 04:48:41.461 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 04:48:41.461 [error] Error: no reference origin found
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:07:50.616 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:07:50.617 [error] Error: monitoring.tfvars (13,16): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:07:50.961 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:07:50.962 [error] Error: monitoring.tfvars (9,16): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:07:52.524 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:07:52.525 [error] Error: monitoring.tfvars (9,15): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:07:52.791 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:07:52.791 [error] Error: monitoring.tfvars (9,14): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:05.407 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:05.408 [error] Error: monitoring.tfvars (4,3): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:06.161 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:06.161 [error] Error: monitoring.tfvars (4,2): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:10.889 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:10.890 [error] Error: monitoring.tfvars (5,6): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:14.403 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:14.403 [error] Error: monitoring.tfvars (4,24): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:16.749 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:16.749 [error] Error: monitoring.tfvars (4,23): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:17.314 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:17.315 [error] Error: monitoring.tfvars (4,22): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:19.079 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:19.081 [error] Error: monitoring.tfvars (3,8): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:22.695 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:22.695 [error] Error: monitoring.tfvars (7,5): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:22.973 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:22.974 [error] Error: monitoring.tfvars (7,4): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:08:47.678 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:08:47.678 [error] Error: monitoring.tfvars (7,3): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:03.967 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:03.968 [error] Error: monitoring.tfvars (1,17): unknown attribute "monitoring_alert_policy"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:22.454 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:22.456 [error] Error: monitoring.tf (5,27): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:25.152 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:25.153 [error] Error: monitoring.tf (10,13): unknown attribute "severity"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:27.778 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:27.778 [error] Error: monitoring.tf (10,5): unknown attribute "severity"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:50.913 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:50.913 [error] Error: logging_project_sink.tfvars (4,18): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:54.704 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:54.705 [error] Error: logging_project_sink.tfvars (8,47): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:55.196 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:55.196 [error] Error: logging_project_sink.tfvars (5,15): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:09:55.556 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:09:55.557 [error] Error: logging_project_sink.tfvars (6,9): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:11:42.537 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:11:42.538 [error] Error: logging_project_sink.tfvars (21,8): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:11:43.142 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:11:43.143 [error] Error: logging_project_sink.tfvars (13,7): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:11:56.964 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:11:56.965 [error] Error: logging_project_sink.tfvars (9,4): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:12:03.438 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:12:03.439 [error] Error: logging_project_sink.tfvars (8,4): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-17 05:12:12.047 [error] [hashicorp.terraform] provider FAILED
+2024-04-17 05:12:12.047 [error] Error: logging_project_sink.tfvars (8,3): unknown attribute "logging_project_sink"
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)

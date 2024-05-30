@@ -1,0 +1,668 @@
+Launching language server: /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/bin/terraform-ls serve
+Starting client
+Client: Stopped --> Starting
+2024/04/17 04:28:57 serve_command.go:104: Starting terraform-ls 0.31.2
+2024/04/17 04:28:57 service.go:101: Preparing new session ...
+2024/04/17 04:28:57 langserver.go:97: Starting server (pid 2197; concurrency: 2) ...
+2024/04/17 04:28:57 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:28:57 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:28:57 rpc_logger.go:32: Incoming request for "initialize" (ID 0): {"processId":2179,"clientInfo":{"name":"Code OSS for Cloud Shell","version":"1.83.1"},"locale":"en","rootPath":"/home/yellaboyinapavanteja/rogers-1","rootUri":"file:///home/yellaboyinapavanteja/rogers-1","capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","rename","delete"],"failureHandling":"textOnlyTransactional","normalizesLineEndings":true,"changeAnnotationSupport":{"groupsOnLabel":true}},"configuration":true,"didChangeWatchedFiles":{"dynamicRegistration":true,"relativePatternSupport":true},"symbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"tagSupport":{"valueSet":[1]},"resolveSupport":{"properties":["location.range"]}},"codeLens":{"refreshSupport":true},"executeCommand":{"dynamicRegistration":true},"didChangeConfiguration":{"dynamicRegistration":true},"workspaceFolders":true,"semanticTokens":{"refreshSupport":true},"fileOperations":{"dynamicRegistration":true,"didCreate":true,"didRename":true,"didDelete":true,"willCreate":true,"willRename":true,"willDelete":true},"inlineValue":{"refreshSupport":true},"inlayHint":{"refreshSupport":true},"diagnostics":{"refreshSupport":true}},"textDocument":{"publishDiagnostics":{"relatedInformation":true,"versionSupport":false,"tagSupport":{"valueSet":[1,2]},"codeDescriptionSupport":true,"dataSupport":true},"synchronization":{"dynamicRegistration":true,"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"dynamicRegistration":true,"contextSupport":true,"completionItem":{"snippetSupport":true,"commitCharactersSupport":true,"documentationFormat":["markdown","plaintext"],"deprecatedSupport":true,"preselectSupport":true,"tagSupport":{"valueSet":[1]},"insertReplaceSupport":true,"resolveSupport":{"properties":["documentation","detail","additionalTextEdits"]},"insertTextModeSupport":{"valueSet":[1,2]},"labelDetailsSupport":true},"insertTextMode":2,"completionItemKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25]},"completionList":{"itemDefaults":["commitCharacters","editRange","insertTextFormat","insertTextMode"]}},"hover":{"dynamicRegistration":true,"contentFormat":["markdown","plaintext"]},"signatureHelp":{"dynamicRegistration":true,"signatureInformation":{"documentationFormat":["markdown","plaintext"],"parameterInformation":{"labelOffsetSupport":true},"activeParameterSupport":true},"contextSupport":true},"definition":{"dynamicRegistration":true,"linkSupport":true},"references":{"dynamicRegistration":true},"documentHighlight":{"dynamicRegistration":true},"documentSymbol":{"dynamicRegistration":true,"symbolKind":{"valueSet":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26]},"hierarchicalDocumentSymbolSupport":true,"tagSupport":{"valueSet":[1]},"labelSupport":true},"codeAction":{"dynamicRegistration":true,"isPreferredSupport":true,"disabledSupport":true,"dataSupport":true,"resolveSupport":{"properties":["edit"]},"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["","quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"honorsChangeAnnotations":false},"codeLens":{"dynamicRegistration":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{"dynamicRegistration":true},"onTypeFormatting":{"dynamicRegistration":true},"rename":{"dynamicRegistration":true,"prepareSupport":true,"prepareSupportDefaultBehavior":1,"honorsChangeAnnotations":true},"documentLink":{"dynamicRegistration":true,"tooltipSupport":true},"typeDefinition":{"dynamicRegistration":true,"linkSupport":true},"implementation":{"dynamicRegistration":true,"linkSupport":true},"colorProvider":{"dynamicRegistration":true},"foldingRange":{"dynamicRegistration":true,"rangeLimit":5000,"lineFoldingOnly":true,"foldingRangeKind":{"valueSet":["comment","imports","region"]},"foldingRange":{"collapsedText":false}},"declaration":{"dynamicRegistration":true,"linkSupport":true},"selectionRange":{"dynamicRegistration":true},"callHierarchy":{"dynamicRegistration":true},"semanticTokens":{"dynamicRegistration":true,"tokenTypes":["namespace","type","class","enum","interface","struct","typeParameter","parameter","variable","property","enumMember","event","function","method","macro","keyword","modifier","comment","string","number","regexp","operator","decorator","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["declaration","definition","readonly","static","deprecated","abstract","async","modification","documentation","defaultLibrary","hcl-dependent","terraform-data","terraform-locals","terraform-module","terraform-output","terraform-provider","terraform-resource","terraform-provisioner","terraform-connection","terraform-variable","terraform-terraform","terraform-backend","terraform-name","terraform-type","terraform-requiredProviders"],"formats":["relative"],"requests":{"range":true,"full":{"delta":true}},"multilineTokenSupport":false,"overlappingTokenSupport":false,"serverCancelSupport":true,"augmentsSyntaxTokens":true},"linkedEditingRange":{"dynamicRegistration":true},"typeHierarchy":{"dynamicRegistration":true},"inlineValue":{"dynamicRegistration":true},"inlayHint":{"dynamicRegistration":true,"resolveSupport":{"properties":["tooltip","textEdits","label.tooltip","label.location","label.command"]}},"diagnostic":{"dynamicRegistration":true,"relatedDocumentSupport":false}},"window":{"showMessage":{"messageActionItem":{"additionalPropertiesSupport":true}},"showDocument":{"support":true},"workDoneProgress":true},"general":{"staleRequestSupport":{"cancel":true,"retryOnContentModified":["textDocument/semanticTokens/full","textDocument/semanticTokens/range","textDocument/semanticTokens/full/delta"]},"regularExpressions":{"engine":"ECMAScript","version":"ES2020"},"markdown":{"parser":"marked","version":"1.1.0"},"positionEncodings":["utf-16"]},"notebookDocument":{"synchronization":{"dynamicRegistration":true,"executionSummarySupport":true}},"experimental":{"refreshModuleProvidersCommandId":"client.refreshModuleProviders","refreshModuleCallsCommandId":"client.refreshModuleCalls","telemetryVersion":1,"refreshTerraformVersionCommandId":"client.refreshTerraformVersion"}},"initializationOptions":{"experimentalFeatures":{"validateOnSave":false,"prefillRequiredFields":false},"ignoreSingleFileWarning":false,"terraform":{"path":"","timeout":"","logFilePath":""},"indexing":{"ignorePaths":[],"ignoreDirectoryNames":[]}},"trace":"off","workspaceFolders":[{"uri":"file:///home/yellaboyinapavanteja/rogers-1","name":"rogers-1"}]}
+2024/04/17 04:28:57 initialize.go:181: enabling telemetry (version: 1)
+2024/04/17 04:28:57 initialize.go:186: telemetry enabled (version: 1)
+2024/04/17 04:28:57 scheduler.go:50: launching eval loop 0
+2024/04/17 04:28:57 service.go:470: started low priority scheduler
+2024/04/17 04:28:57 scheduler.go:50: launching eval loop 0
+2024/04/17 04:28:57 service.go:475: started high priority scheduler
+2024/04/17 04:28:57 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"initialize","properties":{"experimentalCapabilities.referenceCountCodeLens":false,"experimentalCapabilities.refreshModuleCalls":true,"experimentalCapabilities.refreshModuleProviders":true,"experimentalCapabilities.refreshTerraformVersion":true,"lsVersion":"0.31.2","options.commandPrefix":false,"options.excludeModulePaths":false,"options.experimentalFeatures.prefillRequiredFields":false,"options.experimentalFeatures.validateOnSave":false,"options.ignoreSingleFileWarning":false,"options.indexing.ignoreDirectoryNames":false,"options.indexing.ignorePaths":false,"options.rootModulePaths":false,"options.terraform.logFilePath":false,"options.terraform.path":false,"options.terraform.timeout":"","root_uri":"dir"}}
+2024/04/17 04:28:57 walker_paths.go:243: walking next dir: {"file:///home/yellaboyinapavanteja/rogers-1"}
+2024/04/17 04:28:57 walker.go:187: skipping ignored dir name: .git
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/input-json-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/plan-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/modules} finished
+2024/04/17 04:28:57 rpc_logger.go:53: Response to "initialize" (ID 0): {"capabilities":{"textDocumentSync":{"openClose":true,"change":2,"save":{}},"completionProvider":{"triggerCharacters":[".","["],"resolveProvider":true},"hoverProvider":true,"signatureHelpProvider":{"triggerCharacters":["(",","]},"declarationProvider":true,"definitionProvider":true,"referencesProvider":true,"documentSymbolProvider":true,"codeActionProvider":{"codeActionKinds":["source.formatAll.terraform"]},"codeLensProvider":{},"documentLinkProvider":{},"workspaceSymbolProvider":true,"documentFormattingProvider":true,"executeCommandProvider":{"commands":["terraform-ls.module.callers","terraform-ls.module.calls","terraform-ls.module.providers","terraform-ls.module.terraform","terraform-ls.rootmodules","terraform-ls.terraform.init","terraform-ls.terraform.validate"],"workDoneProgress":true},"semanticTokensProvider":{"legend":{"tokenTypes":["enumMember","function","keyword","number","parameter","property","string","type","variable","hcl-attrName","hcl-blockType","hcl-blockLabel","hcl-bool","hcl-string","hcl-number","hcl-objectKey","hcl-mapKey","hcl-keyword","hcl-traversalStep","hcl-typeCapsule","hcl-typePrimitive","hcl-functionName"],"tokenModifiers":["defaultLibrary","hcl-dependent","terraform-backend","terraform-connection","terraform-data","terraform-locals","terraform-module","terraform-name","terraform-output","terraform-provider","terraform-provisioner","terraform-requiredProviders","terraform-resource","terraform-terraform","terraform-type","terraform-variable"]},"full":true},"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":"workspace/didChangeWorkspaceFolders"},"fileOperations":{}},"experimental":{"referenceCountCodeLens":false,"refreshModuleProviders":true,"refreshModuleCalls":true,"refreshTerraformVersion":true}},"serverInfo":{"name":"terraform-ls","version":"0.31.2"}}
+2024/04/17 04:28:57 opts.go:203: Completed 1 requests [2.715273ms elapsed]
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers/registry.terraform.io} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/providers} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "1": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "2": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "3": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "4": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform/modules/modules.json", PluginLockFilePath:"/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template/.terraform.lock.hcl"}
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "1" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "5": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "6": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "7": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "8": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "9": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "10": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub}
+Client: Starting --> Running
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "11": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "12": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "13": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "14": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+Multi-folder support: true
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "15": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:28:57 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:28:57 rpc_logger.go:32: Incoming notification for "initialized": {}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "16": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 opts.go:203: Posting server call "client/registerCapability" {"registrations":[{"id":"5a077302-8c30-72c6-6c9b-8bdc41466f27","method":"workspace/didChangeWatchedFiles","registerOptions":{"watchers":[{"globPattern":"**/.terraform","kind":3},{"globPattern":"**/.terraform/modules/modules.json"},{"globPattern":"**/.terraform.lock.hcl"},{"globPattern":"**/.terraform/plugins/selections.json"},{"globPattern":"**/.terraform/plugins/linux_amd64/lock.json"}]}}]}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "17": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/plan-file} finished
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "1": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/modules} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers/registry.terraform.io} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/providers} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "11" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "18": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "19": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "20": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "21": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform/modules/modules.json", PluginLockFilePath:"/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/.terraform.lock.hcl"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "22": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "23": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "24": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "25": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "26": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "27": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "28": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "29": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "30": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "31": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "32": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "33": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "34": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/input-json-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/plan-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/modules} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.21.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.21.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.21.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.21.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers/registry.terraform.io} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/providers} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "35": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "36": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "37": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "38": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform/modules/modules.json", PluginLockFilePath:"/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template/.terraform.lock.hcl"}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "39": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "40": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "41": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "42": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "43": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "44": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "45": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "46": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "47": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "48": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "49": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "50": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "51": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "52": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "53": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "54": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "55": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"", PluginLockFilePath:""}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "56": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "57": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "58": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/input-json-file/json-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/input-json-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/plan-file} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/modules/bucket} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/modules/cloud-bucket} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/modules/storage_bucket} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/modules} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0/linux_amd64} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta/5.20.0} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp/google-beta} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io/hashicorp} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers/registry.terraform.io} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/providers} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform} finished
+2024/04/17 04:28:57 walker.go:193: found module {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template}
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "59": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "60": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "61": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "62": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 walker.go:91: parsed datadir: &datadir.DataDir{ModuleManifestPath:"/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform/modules/modules.json", PluginLockFilePath:"/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template/.terraform.lock.hcl"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "11": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "12" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "63": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "64": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "65": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "66": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "67": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "68": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (IsDirOpen: false, IgnoreState: false)
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template} finished
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket} finished
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 walker.go:217: walking of {file:///home/yellaboyinapavanteja/rogers-1} finished
+2024/04/17 04:28:57 walker.go:131: walker: walking through {"file:///home/yellaboyinapavanteja/rogers-1"} finished
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "12": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "13" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "13": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "14" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "14": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "15" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:28:57 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:28:57 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:28:57 opts.go:203: Received response for callback "1"
+2024/04/17 04:28:57 rpc_logger.go:32: Incoming notification for "textDocument/didOpen": {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars","languageId":"terraform-vars","version":1,"text":"logging_project_sink = {\n   \"sinkname1\" = {\n    project_id                    = \"hardy-binder-411706\" \n    destination                   = \"pubsub.googleapi.com/projects/hardy-binder-411706/topics/topic1\"\n    filter                        = \"resource.type = gce_instance AND severity >= WARNING\"\n    description                   = \"description--01\"\n    # disabled                    = \"disabled\"\n    # unique_writer_identity      = \"unique_writer_identity\"\n    # custom_writer_identity      = \"custom_writer_identity\"\n    # include_children            = \"true\"\n\n#    bigquery_options               = [\n#     /* {\n#       use_partitioned_tables  = bool\n#     } */\n#   ]\n#     exclusions =[ \n#     # {\n#     #   name                      =  \"name\"\n#     #   description               =  \"description\"\n#     #   filter                    =  \"filter\"\n#     #   disabled                  =  \"disabled\"\n#     # }\n# ]\n}\n}\n"}}
+2024/04/17 04:28:57 did_open.go:56: opened module: /home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "69": "OpTypeGetTerraformVersion" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "70": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "71": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "72": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "73": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "74": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "75": "OpTypeGetModuleDataFromRegistry" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "76": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: true)
+2024/04/17 04:28:57 jobs.go:93: JOBS: Enqueueing new job "77": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (IsDirOpen: true, IgnoreState: false)
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "69" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeGetTerraformVersion" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "69": "OpTypeGetTerraformVersion" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "70" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "70": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "71" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "71": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "72" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "72": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "73" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "73": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "74" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "74": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "76" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "76": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:57 jobs.go:271: JOBS: Dispatching next job "77" (scheduler prio: 1, job prio: 0, isDirOpen: true): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:28:57 jobs.go:386: JOBS: Finishing job "77": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 module_ops.go:290: preloaded schema for registry.terraform.io/hashicorp/google 4.64.0 in 313.278721ms
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "15": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "16" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:58 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub, registry.terraform.io/-/google, )
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "16": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "17" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"}
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub, registry.terraform.io/-/google, )
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "17": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "18" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "18": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "19" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "19": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "2" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "2": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "20" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "20": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "21" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "21": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "22" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 module_calls.go:28: indexing installed module calls: 1
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "22": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "23" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:386: JOBS: Finishing job "23": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 jobs.go:271: JOBS: Dispatching next job "24" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:28:58 jobs.go:249: retrying on obj is nil
+2024/04/17 04:28:58 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:28:58 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:28:58 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:28:58 opts.go:203: Received request batch of size 1 (qlen=1)
+2024/04/17 04:28:58 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"backend":"gcs","moduleId":"bd059bb5-4c38-8a2f-3e32-d3a6ec1905d2","providerRequirements":{"registry.terraform.io/-/google":"","registry.terraform.io/-/google-beta":""}}}
+2024/04/17 04:28:58 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"b24e0dc7-d396-372f-2731-ae5cfc4491a4","providerRequirements":{"registry.terraform.io/-/google":""},"tfRequirements":"\u003e=1.0.0"}}
+2024/04/17 04:28:58 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"backend":"gcs","installedProviders":{"registry.terraform.io/hashicorp/google":"5.20.0","registry.terraform.io/hashicorp/google-beta":"5.20.0"},"moduleId":"83a14553-99e7-808c-595f-c95a403fd133","providerRequirements":{"registry.terraform.io/-/google":"","registry.terraform.io/-/google-beta":""}}}
+2024/04/17 04:28:58 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"e0d776d0-523c-0353-1542-ff3f5be66394","tfVersion":"1.7.5"}}
+2024/04/17 04:28:58 opts.go:203: Posting server call "client.refreshModuleProviders" 
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=2)
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=3)
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=4)
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=5)
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=6)
+2024/04/17 04:29:00 opts.go:203: Received response for callback "2"
+2024/04/17 04:29:00 opts.go:203: Posting server call "client.refreshModuleCalls" 
+2024/04/17 04:29:00 opts.go:203: Received response for callback "3"
+2024/04/17 04:29:00 opts.go:203: Posting server call "client.refreshTerraformVersion" 
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=7)
+2024/04/17 04:29:00 opts.go:203: Received request batch of size 1 (qlen=8)
+2024/04/17 04:29:00 jobs.go:386: JOBS: Finishing job "24": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = exit status 1
+
+Error: Module not installed
+
+  on /home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template/logging_project_sink.tf line 1:
+   1: module "logging_project_sink" {
+
+This module's local cache directory .terraform/modules/logging_project_sink
+could not be read. Run "terraform init" to install all modules required by
+this configuration.
+
+, deferredJobs: [])
+2024/04/17 04:29:00 jobs.go:271: JOBS: Dispatching next job "25" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:29:00 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:01 module_ops.go:247: preloading schema for -/google-beta (implying hashicorp/google-beta)
+2024/04/17 04:29:01 opts.go:203: Received request batch of size 1 (qlen=9)
+2024/04/17 04:29:01 opts.go:203: Received request batch of size 1 (qlen=10)
+2024/04/17 04:29:01 opts.go:203: Received request batch of size 1 (qlen=11)
+2024/04/17 04:29:01 module_ops.go:290: preloaded schema for registry.terraform.io/hashicorp/google-beta 4.64.0 in 274.278321ms
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "25": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "26" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "26": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "27" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "27": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "28" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "28": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "29" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "29": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "3" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "3": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "30" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "30": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "31" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "31": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "32" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 opts.go:203: Received request batch of size 1 (qlen=12)
+2024/04/17 04:29:01 opts.go:203: Received request batch of size 1 (qlen=13)
+2024/04/17 04:29:01 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "32": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "33" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink, registry.terraform.io/-/google, )
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "33": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "34" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_logging_project_sink, registry.terraform.io/-/google, )
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "34": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "35" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "35": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "36" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "36": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "37" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "37": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "38" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "38": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "39" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 module_calls.go:28: indexing installed module calls: 1
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "39": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "4" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "4": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "40" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:386: JOBS: Finishing job "40": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:01 jobs.go:271: JOBS: Dispatching next job "41" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:01 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "41": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = exit status 1
+
+Error: error loading state: 2 errors occurred:
+	* writing "gs://test-2bucket/lz-mon/default.tflock" failed: googleapi: Error 404: The specified bucket does not exist., notFound
+	* storage: object doesn't exist
+
+
+
+
+, deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "42" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:04 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:04 module_ops.go:247: preloading schema for -/google-beta (implying hashicorp/google-beta)
+2024/04/17 04:29:04 opts.go:203: Received request batch of size 1 (qlen=14)
+2024/04/17 04:29:04 opts.go:203: Received request batch of size 1 (qlen=15)
+2024/04/17 04:29:04 opts.go:203: Received request batch of size 1 (qlen=16)
+2024/04/17 04:29:04 module_ops.go:284: schema for registry.terraform.io/hashicorp/google-beta is already loaded
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "42": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "43" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:04 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "43": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "44" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"}
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:04 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "44": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy/lz-monitoring_alert_policy/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "45" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "45": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "46" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "46": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "47" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "47": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "48" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 jobs.go:386: JOBS: Finishing job "48": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:04 jobs.go:271: JOBS: Dispatching next job "49" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:04 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:04 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "49": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "5" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 module_calls.go:28: indexing installed module calls: 2
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "5": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "50" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy, registry.terraform.io/-/google, )
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "50": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "51" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy, registry.terraform.io/-/google, )
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "51": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "52" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "52": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "53" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "53": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "54" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "54": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "55" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "55": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "56" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:05 opts.go:203: Received request batch of size 1 (qlen=17)
+2024/04/17 04:29:05 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "56": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "57" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1, registry.terraform.io/-/google, )
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "57": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "58" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1, registry.terraform.io/-/google, )
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "58": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google_monitoring_alert_policy.1"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "59" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "59": "OpTypeParseModuleConfiguration" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "6" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "6": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "60" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "60": "OpTypeLoadModuleMetadata" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "61" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "61": "OpTypeParseVariables" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "62" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "62": "OpTypeDecodeVarsReferences" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "63" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 module_calls.go:28: indexing installed module calls: 2
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "63": "OpTypeParseModuleManifest" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "64" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:05 jobs.go:386: JOBS: Finishing job "64": "OpTypeParseProviderVersions" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:05 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:05 jobs.go:271: JOBS: Dispatching next job "65" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:08 jobs.go:386: JOBS: Finishing job "65": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = exit status 1
+
+Error: error loading state: Failed to open state file at gs://igenie-test-terraform/lz-storage_bucket/default.tfstate: googleapi: got HTTP response code 403 with body: <?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>yellaboyinapavanteja@gmail.com does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).</Details></Error>
+
+
+, deferredJobs: [])
+2024/04/17 04:29:08 jobs.go:271: JOBS: Dispatching next job "66" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:08 module_ops.go:247: preloading schema for -/google-beta (implying hashicorp/google-beta)
+2024/04/17 04:29:08 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:08 module_ops.go:284: schema for registry.terraform.io/hashicorp/google-beta is already loaded
+2024/04/17 04:29:08 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:08 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:08 jobs.go:386: JOBS: Finishing job "66": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:08 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:08 jobs.go:271: JOBS: Dispatching next job "67" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:08 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:08 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:08 jobs.go:386: JOBS: Finishing job "67": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:08 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:08 jobs.go:271: JOBS: Dispatching next job "68" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"}
+2024/04/17 04:29:08 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:08 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:08 jobs.go:386: JOBS: Finishing job "68": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/lz-storage_bucket/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:08 jobs.go:271: JOBS: Dispatching next job "7" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:08 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 jobs.go:386: JOBS: Finishing job "7": "OpTypeObtainSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = exit status 1
+
+Error: error loading state: Failed to open state file at gs://igenie-test-terraform/lz-net-hub/default.tfstate: googleapi: got HTTP response code 403 with body: <?xml version='1.0' encoding='UTF-8'?><Error><Code>AccessDenied</Code><Message>Access denied.</Message><Details>yellaboyinapavanteja@gmail.com does not have storage.objects.get access to the Google Cloud Storage object. Permission 'storage.objects.get' denied on resource (or it may not exist).</Details></Error>
+
+
+, deferredJobs: [])
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 jobs.go:271: JOBS: Dispatching next job "10" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:11 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:11 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:11 jobs.go:386: JOBS: Finishing job "10": "OpTypeDecodeReferenceOrigins" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 jobs.go:271: JOBS: Dispatching next job "75" (scheduler prio: -1, job prio: -1, isDirOpen: true): "OpTypeGetModuleDataFromRegistry" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"}
+2024/04/17 04:29:11 jobs.go:386: JOBS: Finishing job "75": "OpTypeGetModuleDataFromRegistry" for {"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 jobs.go:271: JOBS: Dispatching next job "8" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 1): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 module_ops.go:247: preloading schema for -/google (implying hashicorp/google)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=17)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=16)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=15)
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 1): null
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [12.948569608s elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":1}
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=14)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 2): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 3): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 3): {"data":[]}
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [224.278µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 4): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 2): []
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 4): null
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=13)
+2024/04/17 04:29:11 opts.go:203: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=12)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=11)
+2024/04/17 04:29:11 opts.go:203: Request check error for "$/setTrace" (params "{\"value\":\"off\"}"): [-32601] method not found
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=10)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=9)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=8)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":2}
+2024/04/17 04:29:11 opts.go:203: Cancelled request 2 by client order
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=7)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=6)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":4}
+2024/04/17 04:29:11 opts.go:203: Cancelled request 4 by client order
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=5)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=4)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":8}
+2024/04/17 04:29:11 opts.go:203: Cancelled request 8 by client order
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=3)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=2)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":7}
+2024/04/17 04:29:11 opts.go:203: Cancelled request 7 by client order
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=1)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming notification for "$/cancelRequest": {"id":9}
+2024/04/17 04:29:11 opts.go:203: Cancelled request 9 by client order
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 11): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [250.552µs elapsed]
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [334.311µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "workspace/executeCommand" (ID 6): {"command":"terraform-ls.module.terraform","arguments":["uri=file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file"]}
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentSymbol" (ID 5): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "workspace/executeCommand" (ID 6): {"v":0,"discovered_version":"1.7.5"}
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [513.904µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 11): []
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [231.874µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 7): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/documentSymbol" (ID 5): [{"name":"logging_project_sink","kind":23,"range":{"start":{"line":0,"character":0},"end":{"line":25,"character":1}},"selectionRange":{"start":{"line":0,"character":0},"end":{"line":25,"character":1}},"children":[{"name":"sinkname1","kind":23,"range":{"start":{"line":1,"character":3},"end":{"line":24,"character":1}},"selectionRange":{"start":{"line":1,"character":3},"end":{"line":24,"character":1}},"children":[{"name":"project_id","kind":15,"range":{"start":{"line":2,"character":4},"end":{"line":2,"character":57}},"selectionRange":{"start":{"line":2,"character":4},"end":{"line":2,"character":57}}},{"name":"destination","kind":15,"range":{"start":{"line":3,"character":4},"end":{"line":3,"character":101}},"selectionRange":{"start":{"line":3,"character":4},"end":{"line":3,"character":101}}},{"name":"filter","kind":15,"range":{"start":{"line":4,"character":4},"end":{"line":4,"character":90}},"selectionRange":{"start":{"line":4,"character":4},"end":{"line":4,"character":90}}},{"name":"description","kind":15,"range":{"start":{"line":5,"character":4},"end":{"line":5,"character":53}},"selectionRange":{"start":{"line":5,"character":4},"end":{"line":5,"character":53}}}]}]}]
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [646.445µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 9): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:48: Error for "textDocument/documentLink" (ID 9): [-32800] error code -32800: %!s(<nil>)
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [542.44µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 8): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/documentLink" (ID 10): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/documentLink" (ID 10): null
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [556.186µs elapsed]
+2024/04/17 04:29:11 rpc_logger.go:48: Error for "textDocument/documentLink" (ID 8): [-32800] error code -32800: %!s(<nil>)
+2024/04/17 04:29:11 rpc_logger.go:48: Error for "textDocument/codeLens" (ID 7): [-32800] error code -32800: %!s(<nil>)
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [739.857µs elapsed]
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [824.731µs elapsed]
+2024/04/17 04:29:11 opts.go:203: Received response for callback "4"
+2024/04/17 04:29:11 opts.go:203: Posting server call "workspace/semanticTokens/refresh" 
+2024/04/17 04:29:11 opts.go:203: Received response for callback "5"
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"6a42c180-f84e-3cc5-dc4d-a80b24d8ab55","providerRequirements":{"registry.terraform.io/-/google":""}}}
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"backend":"gcs","installedProviders":{"registry.terraform.io/hashicorp/google":"5.20.0","registry.terraform.io/hashicorp/google-beta":"5.20.0"},"moduleId":"bd059bb5-4c38-8a2f-3e32-d3a6ec1905d2","providerRequirements":{"registry.terraform.io/-/google":"","registry.terraform.io/-/google-beta":""}}}
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"backend":"gcs","installedProviders":{"registry.terraform.io/hashicorp/google":"5.21.0","registry.terraform.io/hashicorp/google-beta":"5.21.0"},"moduleId":"96a63c3c-b7da-9b9f-fdc7-369002198a7e","providerRequirements":{"registry.terraform.io/-/google":"","registry.terraform.io/-/google-beta":""}}}
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"46e4c2b2-3e74-fdfe-edac-b7847e416e2b","providerRequirements":{"registry.terraform.io/-/google":""}}}
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"moduleId":"75b1fd37-ccba-831f-5d5a-6f3ee8171107","providerRequirements":{"registry.terraform.io/-/google":""}}}
+2024/04/17 04:29:11 opts.go:203: Posting server notification "telemetry/event" {"v":1,"name":"moduleData","properties":{"backend":"gcs","installedProviders":{"registry.terraform.io/hashicorp/google":"5.20.0","registry.terraform.io/hashicorp/google-beta":"5.20.0"},"moduleId":"3e94043d-4af9-4ebe-2f71-5858c81ef40b","providerRequirements":{"registry.terraform.io/-/google":"","registry.terraform.io/-/google-beta":""}}}
+2024/04/17 04:29:11 module_ops.go:284: schema for registry.terraform.io/hashicorp/google is already loaded
+2024/04/17 04:29:11 module_ops.go:247: preloading schema for -/google-beta (implying hashicorp/google-beta)
+2024/04/17 04:29:11 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:29:11 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:29:11 rpc_logger.go:32: Incoming request for "textDocument/semanticTokens/full" (ID 12): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:11 rpc_logger.go:53: Response to "textDocument/semanticTokens/full" (ID 12): {"data":[]}
+2024/04/17 04:29:11 opts.go:203: Completed 1 requests [208.965µs elapsed]
+2024/04/17 04:29:11 module_ops.go:284: schema for registry.terraform.io/hashicorp/google-beta is already loaded
+2024/04/17 04:29:11 jobs.go:386: JOBS: Finishing job "8": "OpTypePreloadEmbeddedSchema" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:11 jobs.go:271: JOBS: Dispatching next job "9" (scheduler prio: -1, job prio: 0, isDirOpen: false): "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"}
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:11 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template, registry.terraform.io/-/google-beta, )
+2024/04/17 04:29:11 provider_schema.go:282: PSS: getting provider schema (/home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template, registry.terraform.io/-/google, )
+2024/04/17 04:29:11 jobs.go:386: JOBS: Finishing job "9": "OpTypeDecodeReferenceTargets" for {"file:///home/yellaboyinapavanteja/rogers-1/google-network-connectivity-hub/lz-network_connectivity_hub/template"} (err = %!s(<nil>), deferredJobs: [])
+2024/04/17 04:29:11 jobs.go:249: retrying on obj is nil
+2024/04/17 04:29:37 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:29:37 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:29:37 rpc_logger.go:32: Incoming request for "textDocument/codeLens" (ID 13): {"textDocument":{"uri":"file:///home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars"}}
+2024/04/17 04:29:37 rpc_logger.go:53: Response to "textDocument/codeLens" (ID 13): []
+2024/04/17 04:29:37 opts.go:203: Completed 1 requests [300.511µs elapsed]
+Client: Running --> Stopped
+2024/04/17 04:29:47 opts.go:203: Received request batch of size 1 (qlen=0)
+2024/04/17 04:29:47 opts.go:203: Dequeued request batch of length 1 (qlen=0)
+2024/04/17 04:29:47 rpc_logger.go:32: Incoming request for "shutdown" (ID 14): 
+2024/04/17 04:29:47 service.go:556: stopping closedDirWalker for session ...
+2024/04/17 04:29:47 service.go:558: closedDirWalker stopped
+2024/04/17 04:29:47 service.go:561: stopping openDirWalker for session ...
+2024/04/17 04:29:47 service.go:563: openDirWalker stopped
+2024/04/17 04:29:47 scheduler.go:57: stopped scheduler
+2024/04/17 04:29:47 scheduler.go:57: stopped scheduler
+2024/04/17 04:29:47 rpc_logger.go:53: Response to "shutdown" (ID 14): null
+2024/04/17 04:29:47 opts.go:203: Completed 1 requests [241.476µs elapsed]

@@ -1,0 +1,23 @@
+2024-04-17 04:29:00.853 [info] Log level: Info
+2024-04-17 04:29:00.853 [info] Validating found git in: "git"
+2024-04-17 04:29:00.853 [info] Using git "2.30.2" from "git"
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [1ms]
+2024-04-17 04:29:00.853 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-04-17 04:29:00.853 [info] Open repository: /home/yellaboyinapavanteja/rogers-1
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [20ms]
+2024-04-17 04:29:00.853 [info] > git config --get commit.template [27ms]
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-17 04:29:00.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [12ms]
+2024-04-17 04:29:00.853 [info] > git status -z -uall [11ms]
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [56ms]
+2024-04-17 04:29:00.853 [info] > git rev-parse --show-toplevel [2253ms]
+2024-04-17 04:29:00.853 [info] > git config --get commit.template [2268ms]
+2024-04-17 04:29:00.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [54ms]
+2024-04-17 04:29:00.856 [info] > git rev-parse --show-toplevel [59ms]
+2024-04-17 04:29:00.857 [info] > git status -z -uall [6ms]
+2024-04-17 04:29:00.940 [info] > git show --textconv :google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars [24ms]
+2024-04-17 04:29:00.940 [info] > git ls-files --stage -- /home/yellaboyinapavanteja/rogers-1/google_logging_project_sink/lz-logging_project_sink/input-json-file/logging_project_sink.tfvars [6ms]
+2024-04-17 04:29:00.966 [info] > git cat-file -s f49344f502dbbf88dc0104d979a4575e65d047d9 [8ms]
+2024-04-17 04:29:01.232 [info] > git check-ignore -v -z --stdin [7ms]
+2024-04-17 04:29:40.198 [info] > git check-ignore -v -z --stdin [2ms]

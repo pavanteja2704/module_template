@@ -1,0 +1,679 @@
+2024-04-22 04:30:07.769 [info] Extension host with pid 1196 started
+2024-04-22 04:30:07.885 [info] Lock '/home/yellaboyinapavanteja/.codeoss/data/User/workspaceStorage/-43fb16e2/vscode.lock': Lock acquired.
+2024-04-22 04:30:07.922 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-04-22 04:30:08.195 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-04-22 04:30:08.196 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-22 04:30:08.949 [info] ExtensionService#_doActivateExtension hashicorp.terraform, startup: true, activationEvent: 'workspaceContains:**/*.tf,**/*.tfvars'
+2024-04-22 04:30:10.535 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-04-22 04:30:10.912 [info] Eager extensions activated
+2024-04-22 04:30:10.913 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 04:30:10.914 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 04:30:10.914 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 04:30:10.915 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 04:30:10.915 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-22 04:30:13.426 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1169
+2024-04-22 04:30:13.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1172
+2024-04-22 04:30:14.527 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-22 04:30:14.528 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-04-22 04:30:14.528 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-22 04:30:45.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1175
+2024-04-22 04:30:50.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1175
+2024-04-22 04:30:55.986 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1175
+2024-04-22 04:31:01.108 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1175
+2024-04-22 04:31:37.795 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:31:42.926 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:35:42.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:35:47.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:35:52.384 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:01.036 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:09.091 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:14.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:19.293 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:24.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:29.503 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:34.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:39.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:44.811 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:49.911 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:36:55.008 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:00.542 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:05.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:10.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:15.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:20.945 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:26.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:31.199 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:36.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:41.834 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:46.942 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:52.037 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:37:57.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:02.948 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:08.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:13.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:18.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:23.380 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:27.010 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:27.016 [error] Error: main.tf (5,26): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:27.274 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:27.274 [error] Error: main.tf (5,25): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:28.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:28.530 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:28.531 [error] Error: main.tf (11,3): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:29.470 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:29.471 [error] Error: main.tf (10,18): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:31.250 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:31.252 [error] Error: main.tf (10,15): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:34.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:38.023 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:38.024 [error] Error: main.tf (235,2): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:38.649 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:38.649 [error] Error: main.tf (207,2): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:39.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:44.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:44.610 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:44.611 [error] Error: main.tf (119,23): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:49.272 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:49.272 [error] Error: main.tf (11,1): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:49.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:49.589 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:49.589 [error] Error: main.tf (11,1): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:50.242 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:50.243 [error] Error: main.tf (11,13): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:51.152 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:51.152 [error] Error: main.tf (11,7): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:51.523 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:51.523 [error] Error: main.tf (11,6): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:53.805 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:53.805 [error] Error: main.tf (43,6): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:54.224 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:54.224 [error] Error: main.tf (75,6): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:57.034 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2024-04-22 04:38:57.710 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:57.710 [error] Error: main.tf (65,11): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:57.946 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:57.947 [error] Error: main.tf (65,12): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:58.302 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:58.302 [error] Error: main.tf (65,11): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:38:58.571 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:38:58.571 [error] Error: main.tf (65,11): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:39:00.512 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:39:00.512 [error] Error: main.tf (65,45): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:39:06.035 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2024-04-22 04:39:09.466 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:39:09.467 [error] Error: main.tf (142,20): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:39:11.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2024-04-22 04:39:16.263 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:16.656 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:39:16.656 [error] Error: main.tf (235,8): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:39:21.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:23.920 [error] [hashicorp.terraform] provider FAILED
+2024-04-22 04:39:23.921 [error] Error: main.tf (151,16): position outside of any attribute name, value or block
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387132
+    at re (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:387426)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382210
+    at Immediate.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/hashicorp.terraform-2.26.1@linux/out/extension.js:1:382230)
+    at processImmediate (node:internal/timers:476:21)
+2024-04-22 04:39:26.473 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:31.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:37.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:42.227 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:47.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:52.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:39:57.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:40:02.665 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:40:07.773 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:40:12.890 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:40:17.993 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:23.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:28.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:33.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:38.413 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:43.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:48.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:53.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:40:58.814 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:41:09.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:41:15.575 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:41:20.691 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:41:25.792 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2024-04-22 04:41:33.246 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1158
+2024-04-22 04:41:45.646 [info] Extension host terminating: received terminate message from renderer
+2024-04-22 04:41:45.649 [info] Lock '/home/yellaboyinapavanteja/.codeoss/data/User/workspaceStorage/-43fb16e2/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-04-22 04:41:45.719 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.720 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.721 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.722 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.724 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.725 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.726 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at s.D [as value] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:140628)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.732 [error] Canceled: Canceled
+    at new g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:57216)
+    at i.U (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:10864)
+    at Proxy.M.<computed>.j.charCodeAt.M.<computed> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:134:8315)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83747)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at $.registerCommand.description (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:82506)
+    at n.h (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:84283)
+    at n.g (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83278)
+    at n.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:125:83185)
+    at Object.executeCommand (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:21282)
+    at t.$D.set b [as b] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:24828)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/github/dist/extension.js:2:25469
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:229868)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.A (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1972)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2188)
+    at Object.m [as dispose] (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:156416)
+    at /google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161257
+    at Array.forEach (<anonymous>)
+    at g.dispose (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:161243)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3521)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at v.<anonymous> (/google/devshell/editor/code-oss-for-cloud-shell/extensions/git/dist/main.js:2:142640)
+    at v.dispose (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:121:3618)
+    at o (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:30:754)
+    at s.cb (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:9846)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7796
+    at Array.map (<anonymous>)
+    at s.Y (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:7784)
+    at s.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:136:8054)
+    at o.terminate (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:1513)
+    at l (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:9801)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:153:7848)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at m.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:14010)
+    at r.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:17075)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:15527)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at s.acceptChunk (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11784)
+    at s.value (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:96:11071)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+    at c.fire (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+    at c.z (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:19173)
+    at c.acceptFrame (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:18979)
+    at a.n (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:17612)
+    at /google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:14959
+    at Socket.f (/google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:150:12873)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Socket.Readable.push (node:internal/streams/readable:234:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23) setContext undefined
+2024-04-22 04:41:45.753 [info] Extension host with pid 1196 exiting with code 0
